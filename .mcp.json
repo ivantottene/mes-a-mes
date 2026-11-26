@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mes-a-mes": {
+      "type": "http",
+      "url": "https://mes-que-vem-api.tottene.workers.dev/mcp"
+    }
+  }
+}
