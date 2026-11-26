@@ -12,4 +12,4 @@ Para anotar uma compra:
 5. Se a resposta avisar que existe uma compra parecida, mostre o aviso e pergunte se quer salvar mesmo assim. Só então chame de novo com `salvar_mesmo_assim` verdadeiro.
 6. Confirme em uma frase o que foi anotado e o novo total do mês.
 
-Compras com cupom fiscal (foto) são anotadas pelo WhatsApp do Mês que Vem, não por aqui.
+Aqui as compras são anotadas por texto. Se a pessoa só tiver a foto do cupom, peça que ela leia os itens e os valores para você.
