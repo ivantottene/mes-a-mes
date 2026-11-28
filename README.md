@@ -1,16 +1,16 @@
-# Mês a Mês
+# SuperMês
 
 Controle o gasto de supermercado semana a semana e mês a mês, e entenda o que você compra por categoria, conversando com o Claude. Você anota as compras e pergunta quanto gastou, em quê e onde ficou mais barato.
 
 ## Como conectar
 
-Quer ver antes com dados de mentira? Abra https://mes-que-vem-api.tottene.workers.dev/demo: a conta de demonstração já vem com dois meses de compras fictícias e se apaga sozinha em 3 dias.
+Quer ver antes com dados de mentira? Abra https://supermes.app/demo: a conta de demonstração já vem com dois meses de compras fictícias e se apaga sozinha em 3 dias.
 
-**Com login (recomendado).** No Claude, abra Personalizar (Customize) > Conectores > Adicionar conector personalizado e cole só o endereço `https://mes-que-vem-api.tottene.workers.dev/mcp`. O Claude abre uma página do Mês a Mês: crie sua conta anônima (não pedimos nome, e-mail nem telefone) e guarde o código de recuperação, que aparece uma única vez, em um gerenciador de senhas. Se já tem conta, entre com o código de recuperação ou com o link pessoal. Depois você volta ao Claude já conectado. Ao instalar este plugin, o endereço já vem configurado.
+**Com login (recomendado).** No Claude, abra Personalizar (Customize) > Conectores > Adicionar conector personalizado e cole só o endereço `https://supermes.app/mcp`. O Claude abre uma página do SuperMês: crie sua conta anônima (não pedimos nome, e-mail nem telefone) e guarde o código de recuperação, que aparece uma única vez, em um gerenciador de senhas. Se já tem conta, entre com o código de recuperação ou com o link pessoal. Depois você volta ao Claude já conectado. Ao instalar este plugin, o endereço já vem configurado.
 
 **Com link pessoal (alternativa).**
 
-1. Abra https://mes-que-vem-api.tottene.workers.dev/conectar, aceite a política de privacidade e crie sua conta.
+1. Abra https://supermes.app/conectar, aceite a política de privacidade e crie sua conta.
 2. Guarde o link pessoal e o código de recuperação que aparecem, uma única vez, em um gerenciador de senhas.
 3. No Claude, abra Personalizar (Customize) > Conectores > Adicionar conector personalizado, cole o link e escolha autenticação "Sem login".
 
@@ -30,4 +30,4 @@ As ferramentas que gravam dados (anotar compra, definir metas, adicionar e tirar
 
 ## Dados
 
-O plugin envia ao servidor do Mês que Vem (mes-que-vem-api.tottene.workers.dev) apenas o que a ferramenta precisa, como o mês consultado, o nome de um produto ou os itens de uma compra que você pediu para anotar. Ele só lê e grava dados da sua própria conta. Se perder o link, o código de recuperação gera um link novo sem perder as compras (seção "Perdi o link" da página Minha conta). Para trocar a chave ou apagar a conta e todos os dados, use https://mes-que-vem-api.tottene.workers.dev/minha-conta. Política de privacidade: https://mes-que-vem-api.tottene.workers.dev/privacidade. Documentação: https://mes-que-vem-api.tottene.workers.dev/docs.
+O plugin envia ao servidor do SuperMês (supermes.app) apenas o que a ferramenta precisa, como o mês consultado, o nome de um produto ou os itens de uma compra que você pediu para anotar. Ele só lê e grava dados da sua própria conta. Se perder o link, o código de recuperação gera um link novo sem perder as compras (seção "Perdi o link" da página Minha conta). Para trocar a chave ou apagar a conta e todos os dados, use https://supermes.app/minha-conta. Política de privacidade: https://supermes.app/privacidade. Documentação: https://supermes.app/docs.
