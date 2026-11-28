@@ -3,7 +3,7 @@ name: controle-de-gastos
 description: Responder perguntas sobre os gastos de supermercado da pessoa. Use quando ela perguntar quanto gastou, em quê, onde, quanto custou um produto, se está gastando mais ou menos que antes, comparar mercados, prever como o mês vai fechar, ou pedir uma dica para gastar melhor.
 ---
 
-Use as ferramentas do conector Mês a Mês e responda só com os números que elas devolverem. Nunca estime valores.
+Use as ferramentas do conector SuperMês e responda só com os números que elas devolverem. Nunca estime valores.
 
 1. Escolha a ferramenta pela pergunta:
    - "quanto gastei este mês / em outubro": `resumo_do_mes` (use `mes` no formato AAAA-MM).
