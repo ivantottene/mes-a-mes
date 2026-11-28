@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "mes-a-mes": {
+    "supermes": {
       "type": "http",
-      "url": "https://mes-que-vem-api.tottene.workers.dev/mcp"
+      "url": "https://supermes.app/mcp"
     }
   }
 }
