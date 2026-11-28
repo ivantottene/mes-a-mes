@@ -16,17 +16,19 @@ Quer ver antes com dados de mentira? Abra https://supermes.app/demo: a conta de 
 
 ## Como usar
 
-Peça em português, por exemplo: "quais mercados estão mais baratos?", "anote leite e ovos na lista de compras", "o que está acabando?", "defina uma meta de R$ 400 para carnes", "como vou fechar o mês?", "anote uma compra no Giassi: leite 5,50 e pão 8", "quanto gastei este mês?", "onde o arroz ficou mais barato?" ou "o que ficou mais caro?". As 4 skills (controle de gastos, anotar compra, meta do mês e lista de compras) ensinam o Claude a escolher a ferramenta certa, a confirmar os itens antes de anotar uma compra e a mostrar os números como o conector devolve.
+Depois de conectar, escreva **começar**. O SuperMês guia você: pergunta quanto quer gastar por mês (a base de tudo, porque dela saem a meta semanal e o valor por dia), quantas pessoas moram na casa e quantas vezes por mês você compra, e pede uma compra recente para anotar. Em toda resposta ele lembra o próximo passo que falta.
 
-## Ferramentas do conector (25)
+Depois, peça em português, por exemplo: "quais mercados estão mais baratos?", "anote leite e ovos na lista de compras", "o que está acabando?", "defina uma meta de R$ 400 para carnes", "como vou fechar o mês?", "anote uma compra no Mercado Exemplo: leite 5,50 e pão 8", "quanto gastei este mês?", "onde o arroz ficou mais barato?" ou "o que ficou mais caro?". As 5 skills (começar, controle de gastos, anotar compra, meta do mês e lista de compras) ensinam o Claude a escolher a ferramenta certa, a confirmar os itens antes de anotar uma compra e a mostrar os números como o conector devolve.
+
+## Ferramentas do conector (27)
 
 - **Consultas:** resumo do mês e da semana, gastos por categoria, loja e item (com preço por loja), comparação com o mês passado, preços que mudaram, dica do mês, últimas compras, maiores gastos.
-- **Análises:** comparar mercados (o nome da loja é unificado, então "giassi" e "GIASSI LTDA" são o mesmo mercado), itens mais comprados, ticket médio e frequência, quanto ainda posso gastar.
+- **Análises:** comparar mercados (o nome da loja é unificado, então "mercado exemplo" e "MERCADO EXEMPLO LTDA" são o mesmo mercado), itens mais comprados, ticket médio e frequência, quanto ainda posso gastar.
 - **Planejamento:** lista de compras com custo estimado pelos últimos preços pagos (ver, adicionar, tirar) e "o que está acabando", pelo ritmo de compra de cada item.
-- **Metas:** meta mensal, metas por categoria e previsão de como o mês vai fechar.
+- **Começar e metas:** roteiro de início (`comecar`), perfil da casa (`salvar_perfil`), meta mensal (com o valor semanal e por dia), metas por categoria e previsão de como o mês vai fechar.
 - **Dados:** anotar compra e exportar dados.
 
-As ferramentas que gravam dados (anotar compra, definir metas, adicionar e tirar da lista) pedem sua permissão a cada uso.
+As ferramentas que gravam dados (anotar compra, definir metas, salvar o perfil da casa, adicionar e tirar da lista) pedem sua permissão a cada uso.
 
 ## Dados
 

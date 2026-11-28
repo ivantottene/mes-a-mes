@@ -1,0 +1,8 @@
+{
+  "name": "supermes",
+  "displayName": "SuperMês",
+  "version": "1.3.0",
+  "description": "Controle o gasto de supermercado semana a semana e mês a mês, veja o que compra por categoria e anote compras, usando os dados da sua conta do SuperMês.",
+  "author": { "name": "SuperMês" },
+  "license": "MIT"
+}

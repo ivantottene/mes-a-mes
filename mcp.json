@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "supermes": {
+      "type": "http",
+      "url": "https://supermes.app/mcp"
+    }
+  }
+}
