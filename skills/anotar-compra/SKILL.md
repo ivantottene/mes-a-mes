@@ -1,6 +1,6 @@
 ---
 name: anotar-compra
-description: Anotar uma compra de supermercado feita sem cupom. Use quando a pessoa contar o que comprou, com ou sem valores, por exemplo "comprei leite e pão no Giassi" ou "gastei 80 em carne ontem".
+description: Anotar uma compra de supermercado feita sem cupom. Use quando a pessoa contar o que comprou, com ou sem valores, por exemplo "comprei leite e pão no Mercado Exemplo" ou "gastei 80 em carne ontem".
 ---
 
 Para anotar uma compra:
