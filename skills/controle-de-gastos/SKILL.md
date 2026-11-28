@@ -11,7 +11,7 @@ Use as ferramentas do conector SuperMês e responda só com os números que elas
    - "e esta semana": `resumo_da_semana`.
    - "estou gastando mais que no mês passado": `comparar_com_mes_passado`.
    - "quanto gastei com leite", "onde o arroz é mais barato": `buscar_item` (use o começo da palavra, porque os cupons abreviam os nomes).
-   - "quanto gastei no Giassi": `gastos_por_loja`.
+   - "quanto gastei no Mercado Exemplo": `gastos_por_loja`.
    - "o que ficou mais caro": `precos_que_mudaram`.
    - "me dá uma dica": `dica_do_mes`.
    - "qual mercado é mais barato", "compare os mercados": `comparar_mercados`.
