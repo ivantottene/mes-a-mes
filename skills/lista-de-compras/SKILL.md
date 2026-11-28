@@ -3,7 +3,7 @@ name: lista-de-compras
 description: Montar e consultar a lista de compras da pessoa, com custo estimado pelos preços que ela já pagou, e dizer o que provavelmente está acabando. Use quando ela falar em lista, o que falta comprar, o que acabou ou o que precisa repor.
 ---
 
-Use só as ferramentas do conector Mês a Mês e mostre os valores como elas devolverem. Nunca invente preços.
+Use só as ferramentas do conector SuperMês e mostre os valores como elas devolverem. Nunca invente preços.
 
 1. "Anote leite e ovos na lista", "acabou o café": chame `adicionar_na_lista` com os nomes simples, um por produto.
 2. "Como está minha lista", "quanto vai custar": chame `ver_lista_de_compras`. O custo é uma estimativa com uma unidade de cada item, pelo último preço pago; diga isso se a pessoa estranhar o valor.
