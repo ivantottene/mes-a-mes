@@ -1,6 +1,6 @@
 ---
 name: controle-de-gastos
-description: Responder perguntas sobre os gastos de supermercado da pessoa. Use quando ela perguntar quanto gastou, em quê, onde, quanto custou um produto, se está gastando mais ou menos que antes, ou pedir uma dica para gastar melhor.
+description: Responder perguntas sobre os gastos de supermercado da pessoa. Use quando ela perguntar quanto gastou, em quê, onde, quanto custou um produto, se está gastando mais ou menos que antes, comparar mercados, prever como o mês vai fechar, ou pedir uma dica para gastar melhor.
 ---
 
 Use as ferramentas do conector Mês a Mês e responda só com os números que elas devolverem. Nunca estime valores.
@@ -14,6 +14,10 @@ Use as ferramentas do conector Mês a Mês e responda só com os números que el
    - "quanto gastei no Giassi": `gastos_por_loja`.
    - "o que ficou mais caro": `precos_que_mudaram`.
    - "me dá uma dica": `dica_do_mes`.
+   - "qual mercado é mais barato", "compare os mercados": `comparar_mercados`.
+   - "o que eu mais compro": `itens_mais_comprados`.
+   - "quanto gasto por compra", "de quanto em quanto tempo compro": `ticket_medio`.
+   - "como vou fechar o mês", "vou estourar o orçamento": `previsao_do_mes`.
 2. Responda em português do Brasil, curto, e mantenha as barras de medição e os valores como a ferramenta devolveu.
 3. Quando houver comparação, mostre os dois períodos lado a lado, sem julgar a pessoa.
 4. Se a ferramenta disser que ainda não há dados, explique o que falta (por exemplo, compras do mês passado para comparar) e ofereça anotar uma compra.
